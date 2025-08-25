@@ -1,0 +1,410 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 10px solid rgb(255,255,255); */
+    background-color:rgb(255,255,255);
+    width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.ol{
+    list-style-type: none;
+}
+.ols{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.ols1{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+.signbtn{
+    border-radius: 25px;
+    padding: 8px 12px;
+    background-color: rgb(0,41,112);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    cursor: pointer;
+   
+
+}
+.icon{
+    font-size: 1.7rem;
+}
+.sublinks{
+    border: 2px solid black;
+    width: 160px;
+    height: 265px;
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.link:hover~.sublinks{
+    display: block;
+}
+.list{
+    position: relative;
+}
+.link:hover{
+    cursor: pointer;
+}
+.rb{
+     align-items: center;          /* vertical align */
+    justify-content: space-between; /* text left, icon right */
+    padding: 5px 8px;
+    cursor: pointer;
+    background-color: white;
+   
+}
+.sublinks1{
+    border: 2px solid black;
+    width: 130px;
+    height: 180px;
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    text-align: center;
+   
+}
+.link1:hover~.sublinks1{
+    display: block;
+}
+.list1{
+    position: relative;
+}
+.link1:hover{
+    cursor: pointer;
+}
+.rb1{
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    gap: 5px;              /* space between vertically */
+    background-color: white;
+   
+}    
+
+.sublinks2{
+    border: 2px solid black;
+    width: 150px;
+    /* height: 170px; */
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    /* text-align: left; */
+    padding: 5px;
+     
+   
+    
+}
+.link2:hover~.sublinks2{
+    display: block;
+}
+.list2{
+    position: relative;
+}
+.link2:hover{
+    cursor: pointer;
+}
+.rb2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: white;
+}
+.rb2 .item{
+    display: flex;
+               
+    align-items: center;          /* vertical align */
+    justify-content: space-between; /* text left, icon right */
+    padding: 5px 0;
+    cursor: pointer;
+}
+.sublinks3{
+    border: 2px solid black;
+    width: 160px;
+    height: 215px;
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    text-align: center;
+    align-items:flex-start;
+  
+}
+.link3:hover~.sublinks3{
+    display: block;
+}
+.list3{
+    position: relative;
+}
+.link3:hover{
+    cursor: pointer;
+}
+.rb3{
+               /* keeps text & icon side by side */
+    align-items: center;        /* aligns vertically */
+    justify-content: space-between; /* pushes icon to the right side */
+    /* padding: 5px 0;             spacing between rows */
+    cursor: pointer;
+    background-color: white;
+}    
+.sublinks4{
+    border: 2px solid black;
+    width: 160px;
+    height: 350px;
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    text-align: center;
+    align-items:flex-start;
+}
+.link4:hover~.sublinks4{
+    display: block;
+}
+.list4{
+    position: relative;
+}
+.link4:hover{
+    cursor: pointer;
+}
+.rb4{
+    align-items: center;        /* aligns vertically */
+    justify-content: space-between; /* pushes icon to the right side */
+    /* padding: 5px 0;             spacing between rows */
+    cursor: pointer;
+    background-color: white;
+   
+}   
+.cards{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    
+}
+.Card1{
+    width: 490px;
+    height: 340px;
+    /* border: 20px solid rebeccapurple; */
+    background-color:aliceblue;
+    border-radius: 25px;
+
+
+} 
+.Card2{
+     width: 490px;
+    height: 340px;
+    /* border: 20px solid rebeccapurple; */
+    background-color:aliceblue;
+    border-radius: 25px;
+}
+.h{
+    font-weight:600;
+    font-style:normal;
+    left: 5px;
+    font-size:large;
+    align-items: center;
+    padding-left: 20px;
+}
+.he{
+    font-weight:600;
+    font-style: normal;
+    left: 5px;
+    font-size: large;
+    align-items: center;
+    padding-left: 20px;
+}
+.li{
+    display: flex;
+    font-weight: 300;
+    /* font-weight: lighter; */
+    font-size: 12px;
+    padding-left: 50px;
+    margin-top: 10px;
+   
+}
+.ui{
+    display: flex;
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 50px;
+    margin-top: 10px;
+ 
+    justify-content: space-between;
+    gap: 30px;
+   
+
+}
+.mr{
+    /* width: 30px;
+    height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.img1{
+    width: 50px;
+    height: auto;
+}
+.hh{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.fr{
+    /* width: 30px;
+    height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.img2{
+    width: 50px;
+    height: auto;
+}
+.hh2{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+.dr{
+    /* width: 30px;
+    height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.img3{
+    width: 50px;
+    height: auto;
+}
+.hh3{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+.vp{
+    /* width: 30px;
+    height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.img4{
+    width: 50px;
+    height: auto;
+}
+.hh4{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+
+
+.eb{
+    /* width: 30px;
+    height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.img5{
+    width: 50px;
+    height: auto;
+}
+.eb1{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.lic{
+    /* width: 30px;
+    height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.img6{
+    width: 50px;
+    height: auto;
+}
+.lic1{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+.lep{
+    /* width: 30px;
+    height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.img7{
+    width: 50px;
+    height: auto;
+}
+.lep1{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+.vap{
+    /* width: 30px;
+    height: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.img8{
+    width: 50px;
+    height: auto;
+}
+.vap1{
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+
